@@ -11,5 +11,8 @@ public class LogicalOps {
         } else {
             System.out.println("I will VIP");
         }
+
+        System.out.println("Whats not ? " + isNightShift);
+        System.out.println("Whats not ? " + !isNightShift);
     }
 }
