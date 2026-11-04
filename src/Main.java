@@ -25,8 +25,5 @@ public class Main {
         Customer customerA = new Customer("Vishnu Vardhan", 30, true, false, "Running, Walking, Eating");
         Customer customerB = new Customer("John Doe", 25, false, true, "Reading, Writing");
 
-        System.out.println("Customer A name is " + customerA.name + " Age is " + customerA.age);
-        System.out.println("Customer B name is " + customerB.name + " Age is " + customerB.age);
-
     }
 }
