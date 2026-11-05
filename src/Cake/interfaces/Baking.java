@@ -1,4 +1,4 @@
-package Cake;
+package Cake.interfaces;
 
 public interface Baking {
     public void prepareBatter();

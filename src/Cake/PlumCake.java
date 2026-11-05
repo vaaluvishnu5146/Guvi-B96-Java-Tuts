@@ -1,6 +1,8 @@
 package Cake;
 
-public class PlumCake implements Baking, Packing {
+import Cake.interfaces.Baking;
+
+public class PlumCake implements Baking {
     @Override
     public void prepareBatter() {
 
@@ -8,11 +10,6 @@ public class PlumCake implements Baking, Packing {
 
     @Override
     public void bakeBatter() {
-
-    }
-
-    @Override
-    public void packageCake() {
 
     }
 }

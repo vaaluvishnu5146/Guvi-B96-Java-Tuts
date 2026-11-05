@@ -1,5 +1,6 @@
 package Cake;
 
+import Cake.interfaces.Baking;
 import Cake.interfaces.Decoration;
 import Cake.interfaces.Packing;
 
